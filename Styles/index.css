@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  /* background-color: rgb(198, 15, 15); */
+  background-image: url("Images/machine.png");
+  color: #000000; /* text color */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.storyboard {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.storyboard img {
+  width: 30%;
+  height: auto;
+}
+
+.personas {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+h4 {
+  text-align: left;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.caption {
+  width: 450px;
+  text-align: left;
+}
+
+.text {
+  margin-bottom: 4%;
+}
+
+.intro {
+  display: flex;
+  /* margin-right: 10%;
+  margin-left: 10%; */
+  /* margin-bottom: 4%;
+ */
+}
